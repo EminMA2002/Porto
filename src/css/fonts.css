@@ -1,20 +1,20 @@
 
 @font-face {
     font-family: interlight;
-    src: url(/src/assets/fonts/Inter_18pt-Light.ttf);
+    src: url(../assets/fonts/Inter_18pt-Light.ttf);
 }
 
 @font-face {
     font-family: intermedium;
-    src: url(/src/assets/fonts/Inter_18pt-Medium.ttf);
+    src: url(../assets/fonts/Inter_18pt-Medium.ttf);
 }
 
 @font-face {
     font-family: interbold;
-    src: url(/src/assets/fonts/Inter_18pt-Bold.ttf)
+    src: url(../assets/fonts/Inter_18pt-Bold.ttf)
 }
 
 @font-face {
     font-family: interregu;
-    src: url(/src/assets/fonts/Inter_28pt-Regular.ttf)
+    src: url(../assets/fonts/Inter_28pt-Regular.ttf)
 }
