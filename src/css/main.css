@@ -841,7 +841,7 @@
 @media only screen and (max-width: 700px) {
     .cardsfaather {
         width: 100%;
-        padding: 0 0px;
+        padding: 0 20px;
     }
 
     .cardschild {
