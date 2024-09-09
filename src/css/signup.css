@@ -1,0 +1,142 @@
+@import url(fonts.css);
+@import url(sub.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.body{
+    background-color: #100F15;
+}
+
+.signupfather{
+    width: 100%;
+    height: 99.5vh;
+}
+
+.signupchild{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+
+.signupleft{
+    width: 38%;
+    height: 100%;
+    background-color: #17171C;
+}
+
+.signupleftchild{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+justify-content: space-between;
+align-items: center;
+padding: 20%;
+}
+
+.signup{
+    font-size: 40px;
+font-family: interbold;
+color: white;
+}
+
+.signuptext{
+    text-align: center;
+    font-size: 18px;
+    font-family: interlight;
+    color: white;
+}
+
+.signupemail{
+    width: 100%;
+    height: 50px;
+    background-color: #100F15;
+    border-color: #ffffff27;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 99px;
+    font-family: interlight;
+    padding-left: 8%;
+    font-size: 100%;
+}
+
+.upbutton{
+    width: 100%;
+    height: 50px;
+    border-radius: 99px;
+    font-family: interbold;
+    font-size: 17px;
+    background: rgb(70, 76, 242);
+    background: linear-gradient(90deg, rgba(70, 76, 242, 1) 0%, rgba(167, 34, 253, 1) 100%);
+    color: white;
+    border: 0px;
+}
+
+.linktosignin{
+    text-align: center;
+    font-size: 15px;
+    font-family: interlight;
+    color: white;
+}
+
+.signinlink{
+    font-size: 15px;
+    font-family: interlight;
+    color: white;
+}
+
+.signupright{
+    width: 62%;
+    height: 100%;
+}
+
+.signupphoto{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+   @media only screen and (max-width: 990px){
+     .signupright{
+        display: none;
+     }
+   
+     .signupchild{
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        padding: 0 20%;
+     }
+
+     .signupleft{
+        width: 100%;
+        height: 70%;
+        border-radius: 20px;
+        gap: 20px;
+    }
+
+    .signupleftchild{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10%;
+    }
+      }
+
+      @media only screen and (max-width: 580px){
+        .signupchild{
+            padding: 0 10%;
+        }
+
+      }

@@ -1,0 +1,166 @@
+@import url(nav.css);
+@import url(fonts.css);
+@import url(sub.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.footterline{
+    margin-top: 70px;
+    width: 100%;
+    border-width: 0.1px;
+    border-color: rgb(103, 103, 103) ;
+    border-style: solid;
+}
+
+.footterfather{
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    margin-top: 40px;
+}
+
+.footterchild{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+   padding: 0 10%;
+}
+
+.left1{
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.footright{
+    width: 50%;
+    height: 70%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.portoisapremium{
+    max-width: 55%;
+    font-size: 18px;
+    color: white;
+    font-family: interlight;
+}
+
+.footicons{
+    display: flex;
+    gap: 15px;
+}
+
+
+.twitter, .facebook, .linkedin, 
+.instagram, .github{
+    color: white;
+    background-color: #313438;
+    width: 40px;
+    height: 40px;
+    border-radius: 99px;
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left2{
+    width: 40%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+
+.featuresfoot{
+    font-family: interbold;
+    font-size: 14px;
+    color: white;
+}
+
+.foottercate{
+    font-family: interlight;
+    font-size: 15px;
+    color: white;
+}
+
+
+.rightfoot2{
+    width: 30%;
+    height: 70%;
+display: flex;
+flex-direction: column;
+    gap: 14px;
+}
+
+.rightfoot1{
+    width: 30%;
+    height: 70%;
+display: flex;
+flex-direction: column;
+    gap: 14px;
+}
+
+
+
+.twitter:hover{
+    background: linear-gradient(90deg, rgba(70, 76, 242, 1) 0%, rgba(167, 34, 253, 1) 100%);
+}
+
+.facebook:hover{
+    background: linear-gradient(90deg, rgba(70, 76, 242, 1) 0%, rgba(167, 34, 253, 1) 100%);
+}
+
+
+.linkedin:hover{
+    background: linear-gradient(90deg, rgba(70, 76, 242, 1) 0%, rgba(167, 34, 253, 1) 100%);
+}
+
+
+.instagram:hover{
+    background: linear-gradient(90deg, rgba(70, 76, 242, 1) 0%, rgba(167, 34, 253, 1) 100%);
+}
+
+
+.github:hover{
+    background: linear-gradient(90deg, rgba(70, 76, 242, 1) 0%, rgba(167, 34, 253, 1) 100%);
+}
+
+
+
+@media only screen and (max-width: 780px) {
+    .footterfather{
+        height: 70vh;
+    }
+
+    .footterchild{
+flex-direction: column;
+justify-content: center;
+gap: 30px;
+}
+
+.left1{
+    width: 100%;
+}
+
+.footright{
+    width: 100%;
+    gap: 0;
+}
+
+.portoisapremium{
+    width: 100%;
+}
+
+}

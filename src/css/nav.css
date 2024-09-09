@@ -13,7 +13,7 @@ nav{
     max-width: 1280px;
    display: flex;
   justify-content: center;
-  gap: 100px;
+  gap: 200px;
 }
 
 .logo{
@@ -48,7 +48,24 @@ nav{
 font-family: interlight;
 color: white;
 text-decoration: none;
+position: relative;
 
+}
+
+.navmenucontent::before{
+    top: 120%;
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    border-radius: 99px;
+    background:linear-gradient(90deg, #464cf2 0%, #a722fd 100%);
+    transition: 0.5s ease width;
+}
+
+
+.navmenucontent:hover::before{
+    width: 100%;
 }
 
 .navright{
@@ -117,15 +134,17 @@ background: linear-gradient(90deg, #464cf2 0%, #a722fd 100%);
     max-width: 70px;
 }
 
+/* .altline{
+    position: relative;
+}
 
-
-
-
-
-
-
-
-
+.altline::before{
+    content: '';
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    background-color;: red
+} */
 
 
 
