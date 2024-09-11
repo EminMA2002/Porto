@@ -2,6 +2,7 @@
 @import url(fonts.css);
 @import url(sub.css);
 @import url(footter.css);
+@import url(main.css);
 
 *{
     margin: 0;
@@ -12,4 +13,515 @@
 
 .body{
     background-color: #100F15;
+}
+
+.firstclassfather{
+    margin-top: 60px;
+    width: 100%;
+    padding: 0 28%;
+    display: flex;
+    justify-content: center;
+}
+
+.firstclasschild{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.neverlet{
+    font-size: 50px;
+    font-family: interbold;
+    color: white;
+}
+
+.beforelong{
+    font-size: 20px;
+    font-family: interlight;
+    color: white;
+}
+
+.artistnames{
+    margin-left: 10%;
+    font-size: 15px;
+    font-family: interbold;
+    color: white;   
+}
+
+.cardicon {
+    font-size: 20px;
+    margin-left: 2%;
+    color: white;
+    width: 20px;
+    height: 20px;
+}
+
+.dates{
+    margin-left: 2%;
+    font-size: 15px;
+    font-family: interlight;
+    color: white;
+}
+
+.cardminreadfirstclass{
+    margin-left: 2%;
+    font-size: 15px;
+    font-family: interlight;
+    color: white;
+}
+
+.post1father{
+    margin-top: 40px;
+    width: 100%;
+    height: 110vh;
+    padding: 0 15%;
+}
+
+.post1child{
+    width: 100%;
+    height: 100%;
+}
+
+.post1{
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.texts2{
+    margin-top: 60px;
+    width: 100%;
+    padding: 0 28%;
+    display: flex;
+    justify-content: center;
+}
+
+.texts2child{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+
+.text2text1{
+    font-size: 20px;
+    font-family: interlight;
+    color: white;
+}
+
+.text2text2{
+    font-size: 30px;
+    font-family: interbold;
+    color: white;
+}
+
+.text2text3{
+    font-size: 20px;
+    font-family: interlight;
+    color: white;
+}
+
+
+.post2father{
+    margin-top: 40px;
+    width: 100%;
+    height: 60vh;
+    padding: 0 28%;
+}
+
+.post2child{
+    width: 100%;
+    height: 100%;
+}
+
+.post2{
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.texts3{
+    margin-top: 60px;
+    width: 100%;
+    padding: 0 28%;
+    display: flex;
+    justify-content: center;
+}
+
+.texts3child{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+
+.text3text1{
+    font-size: 20px;
+    font-family: interlight;
+    color: white;
+}
+
+.text3text2{
+    font-size: 23px;
+    font-family: interbold;
+    color: white;
+    line-height: 40px;
+}
+
+.text3text3{
+    font-size: 20px;
+    font-family: interlight;
+    color: white;
+}
+
+.texts3div{
+    display: flex;
+    gap: 20px;
+}
+
+.leftbartext{
+    border-radius: 99px;
+    width: 8px;
+    height: 100%;
+    background:linear-gradient(90deg, #464cf2 0%, #a722fd 100%);
+}
+
+.post3father{
+    margin-top: 40px;
+    width: 100%;
+    height: 110vh;
+    padding: 0 15%;
+}
+
+.post3child{
+    width: 100%;
+    height: 100%;
+}
+
+.post3{
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.texts4{
+    margin-top: 60px;
+    width: 100%;
+    padding: 0 28%;
+    display: flex;
+    justify-content: center;
+}
+
+.texts4child{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+
+.text4text1{
+    font-size: 20px;
+    font-family: interlight;
+    color: white;
+}
+
+.text4text2{
+    font-size: 20px;
+    font-family: interlight;
+    color: white;
+}
+
+.ctifather{
+    width: 100%;
+    padding: 0 28%;
+    display: flex;
+    justify-content: center;
+}
+
+.ctichild{
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.ctiicons{
+    display: flex;
+    gap: 15px;
+}
+
+.sti{
+    font-size: 30px;
+    font-family: interbold;
+    color: white;
+}
+
+.twitter, .facebook, .linkedin, 
+.pinterest, .whatsapp, .mail , .link {
+    color: white;
+    background-color: #313438;
+    width: 40px;
+    height: 40px;
+    border-radius: 99px;
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.twitter:hover{
+    background: linear-gradient(90deg, rgba(70, 76, 242, 1) 0%, rgba(167, 34, 253, 1) 100%);
+}
+
+.facebook:hover{
+    background: linear-gradient(90deg, rgba(70, 76, 242, 1) 0%, rgba(167, 34, 253, 1) 100%);
+}
+
+
+.linkedin:hover{
+    background: linear-gradient(90deg, rgba(70, 76, 242, 1) 0%, rgba(167, 34, 253, 1) 100%);
+}
+
+
+.pinterest:hover{
+    background: linear-gradient(90deg, rgba(70, 76, 242, 1) 0%, rgba(167, 34, 253, 1) 100%);
+}
+
+
+.whatsapp:hover{
+    background: linear-gradient(90deg, rgba(70, 76, 242, 1) 0%, rgba(167, 34, 253, 1) 100%);
+}
+
+.mail:hover{
+    background: linear-gradient(90deg, rgba(70, 76, 242, 1) 0%, rgba(167, 34, 253, 1) 100%);
+}
+
+.link:hover{
+    background: linear-gradient(90deg, rgba(70, 76, 242, 1) 0%, rgba(167, 34, 253, 1) 100%);
+}
+
+.nopostsfather{
+    width: 100%;
+    padding: 0 80px;
+    margin-top: 150px ;
+}
+
+.nopostschild{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.newerpost{
+    border-radius: 20px;
+width: 500px;
+height: 130px;
+background-color: #17171C;
+border-color: #ffffff27;
+border-width: 1px;
+border-style: solid;
+display: flex;
+justify-content: center;
+align-items: start;
+padding: 20px 0 0 20px;
+gap: 20px;
+}
+
+.newerphoto{
+    height: 90px;
+    width: 120px;
+}
+
+.newerimg{
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.newerposttitle{
+    font-family: interlight;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.563);
+}
+
+.newerposttext{
+    max-width: 90%;
+    font-family: interbold;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.newerpostscontent{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.olderpost{
+    border-radius: 20px;
+    width: 500px;
+    height: 130px;
+    background-color: #17171C;
+    border-color: #ffffff27;
+    border-width: 1px;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding: 20px 20px 0 0;
+    gap: 20px;
+}
+
+.olderpostscontent{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: end;
+}
+
+.olderposttitle{
+    text-align: end;
+    font-family: interlight;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.563);
+}
+
+.olderposttext{
+    text-align: end;
+    max-width: 100%;
+    font-family: interbold;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    
+}
+
+.olderphoto{
+    height: 90px;
+    width: 140px;
+}
+
+.olderimg{
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.fccardfoot {
+    display: flex;
+    height: 50px;
+    align-items: center;
+}
+
+.fccardfootrelative {
+    position: relative;
+    height: 30px;
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .firstclassfather{
+        padding: 0 10%;
+    }
+
+    .texts2{
+        padding: 0 10%;
+    }
+   
+    .texts3{
+        padding: 0 10%;
+    }
+
+    .texts4{
+        padding: 0 10%;
+    }
+
+    .ctifather{
+        padding: 0 0 0 10%;
+    }
+
+    .nopostsfather{
+        padding: 0 5%;
+        
+    }
+
+    .nopostschild{
+        gap: 20px;
+    }
+
+    .fccardfoot{
+        padding: 0;
+    }
+
+    .artistnames{
+        margin-left: 70px;
+    }
+
+    .post1father{
+        padding: 0 10%;
+    }
+
+    .post3father{
+        padding: 0 10%;
+    }
+}
+
+
+@media only screen and (max-width: 850px) {
+    .post2father{
+        padding: 0 10%;
+    }
+
+    .nopostsfather{
+        display: flex;
+        justify-content: center;
+    }
+
+    .nopostschild{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .post2father{
+        padding: 0 10%;
+    }
+
+    .nopostsfather{
+        padding: 0 5%;
+    }
+
+    .newerpost{
+        width: 100%;
+    }
+
+    .olderpost{
+        width: 100%;
+    }
+
+    .newerposttext{
+        font-size: 15px;
+    }
+
+    .olderposttext{
+        font-size: 15px;
+    }
+
+    .ctiicons{
+        gap: 2px;
+    }
 }
