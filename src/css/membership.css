@@ -66,6 +66,18 @@ color: white;
     position: relative;
 }
 
+.monthly{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.yearly{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
 .switchbuttoncontent{
     z-index: 1;
     width: 100%;
@@ -76,6 +88,8 @@ color: white;
     padding: 0 30px;
 }
 
+
+
 .blue{
     position: absolute;
     border-radius: 99px;
@@ -83,8 +97,12 @@ color: white;
     height: 82%;
     background-color: #215DEE;
     left: 3%;
+    transition: .5s ease;
 }
 
+.swiperight{
+    transform: translateX(89%);
+}
 
 
 
@@ -95,7 +113,7 @@ color: white;
     padding: 0 30px;
 }
 
-.packschild{
+.packschild1{
     width: 100%;
     height: 100vh;
     display:grid ;
@@ -104,6 +122,21 @@ color: white;
     padding: 0 30px;
     grid-column-gap: 30px;
     grid-row-gap: 30px;
+}
+
+.packschild2{
+    width: 100%;
+    height: 100vh;
+    display:grid ;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(1, auto);
+    padding: 0 30px;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+}
+
+.displaynone{
+    display: none;
 }
 
 .pack1{
@@ -266,6 +299,7 @@ gap: 30px;
 
 
 
+
 @media only screen and (max-width: 1450px){
     .punkts{
         gap: 10px;
@@ -291,8 +325,16 @@ font-size: 15px;
 }
 
 
+
+
 @media only screen and (max-width: 1150px){
-    .packschild{
+    .packschild1{
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(2, auto);
+        height: 200vh;
+    }
+
+    .packschild2{
         grid-template-columns: repeat(2, auto);
         grid-template-rows: repeat(2, auto);
         height: 200vh;
@@ -320,7 +362,13 @@ font-size: 20px;
 }
 
 @media only screen and (max-width: 1150px){
-    .packschild{
+    .packschild1{
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(2, auto);
+        height: 100%;
+    }
+
+    .packschild2{
         grid-template-columns: repeat(2, auto);
         grid-template-rows: repeat(2, auto);
         height: 100%;
@@ -351,9 +399,25 @@ font-size: 15px;
 }
 
 @media only screen and (max-width: 830px){
-    .packschild{
+    .packsfather{
+        padding: 0 0px;
+    }
+
+    .switchbuttonfather{
+        margin-top: 80px;
+    }
+
+    .packschild1{
         grid-template-columns: repeat(1, auto);
         grid-template-rows: repeat(3, auto);
+        width: 100%;
+        height: 100%;
+    }
+
+    .packschild2{
+        grid-template-columns: repeat(1, auto);
+        grid-template-rows: repeat(3, auto);
+        width: 100%;
         height: 100%;
     }
 
@@ -365,7 +429,7 @@ font-size: 15px;
         gap: 10px;
     }
     .punkt{
-font-size: 20px;
+        font-size: 20px;
     }
 
     .punkttext{
@@ -386,13 +450,24 @@ font-size: 20px;
     }
 
     .faqsfather{
-    padding: 0 60px;
+    padding: 0 30px;
     }
 }
 
 
 
 @media only screen and (max-width: 590px){
+    .boxtext{
+        font-size: 12px;
+        padding: 5px 0;
+    }
+
+
+}
+
+
+
+@media only screen and (max-width: 530px){
     .boxtext{
         font-size: 12px;
         padding: 5px 0;
