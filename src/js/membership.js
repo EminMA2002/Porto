@@ -7,6 +7,7 @@ let line3 = document.querySelector(".line3");
 let openedburger = document.querySelector(".openedburger");
 let linex = document.querySelector(".linex");
 let main = document.getElementById("main");
+let navbuttonburger = document.querySelector(".navbuttonburger");
 
 
 
@@ -25,7 +26,6 @@ monthly.addEventListener("click", () => {
     packschildmonth.classList.remove("displaynone")
 
     blue.classList.remove ("swiperight")
-
 });
 
 
@@ -41,3 +41,7 @@ linex.addEventListener("click", () => {
 });
 
 
+navbuttonburger.addEventListener("click", () => {
+    openedburger.classList.add("displaynone")
+    main.classList.remove("displaynonemain")
+});
