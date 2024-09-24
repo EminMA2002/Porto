@@ -52,6 +52,10 @@
 }
 
 .joinnowbutton {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 220px;
     height: 65px;
     border-radius: 99px;
@@ -484,6 +488,7 @@
 .cardschild {
     width: 100%;
     grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(3, auto);
     display: grid;
     justify-content: center;
     gap: 30px;

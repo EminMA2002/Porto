@@ -52,6 +52,8 @@ color: white;
 }
 
 .switchbuttonchild{
+    cursor: pointer;
+    user-select: none;
     width: 220px;
     height: 100%;
     border-radius:99px ;
@@ -267,24 +269,50 @@ gap: 30px;
 }
 
 .box{
+    user-select: none;
+    cursor: pointer;
     width: 100%;
-    height: 60px;
     border-color: #ffffff10;
     border-width: 1.5px;
     border-style: solid;
+    border-radius: 5px;
     background-color:#100F15 ;
     display: flex;
-    justify-content:space-between ;
-    align-items: center;
-    padding: 0 30px;
+    flex-direction: column;
+    padding: 20px 30px 20px 30px;
 }
 
-.boxtext{
+.opacity50{
+    opacity: 0.5;
+}
+
+.boxdiv{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between ;
+    align-items: center;
+}
+
+.boxtitle{
     max-width: 100%;
+
     text-decoration: none;
     font-family: interbold;
     font-size: 20px;
     color: white;
+}
+
+.boxtext{
+    margin-top: 20px;
+    text-decoration: none;
+    font-family: interlight;
+    font-size: 18px;
+    color: white;
+}
+
+.rotate{
+    rotate: 180deg;
 }
 
 .boxdownarrow{
@@ -404,7 +432,7 @@ font-size: 15px;
     }
 
     .switchbuttonfather{
-        margin-top: 80px;
+        margin-top: 120px;
     }
 
     .packschild1{
@@ -444,7 +472,7 @@ font-size: 15px;
         gap: 20px;
     }
 
-    .boxtext{
+    .boxtitle{
         font-size: 15px;
         padding: 5px 0;
     }
@@ -457,7 +485,7 @@ font-size: 15px;
 
 
 @media only screen and (max-width: 590px){
-    .boxtext{
+    .boxtitle{
         font-size: 12px;
         padding: 5px 0;
     }
@@ -468,7 +496,7 @@ font-size: 15px;
 
 
 @media only screen and (max-width: 530px){
-    .boxtext{
+    .boxtitle{
         font-size: 12px;
         padding: 5px 0;
     }
