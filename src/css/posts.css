@@ -10,6 +10,9 @@
     box-sizing: border-box;
 }
 
+.displaynone{
+    display: none;
+}
 
 .body{
     background-color: #100F15;

@@ -9,8 +9,46 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/AliAghayev132/iconsall/src/css/icons/boxicons.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/AliAghayev132/iconsall/src/css/icons/fontawesome.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/AliAghayev132/iconsall/src/css/icons/bootstrap.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body class="body">
+
+    <div class="openedburger displaynone">
+        <div class="openedburgerchild">
+            <div class="head">
+                <a href="index.html"> <img class="logo" src="./src/assets/images/logo-light.svg" alt=""></a>
+                
+                <div class="headright">
+                    <div><a class="navsearch"><i class = "bx bx-search"></i></a></div>
+                    <div><a class="navsun"><i class = "bx bx-sun"></i></a></div>
+                    <div class="linex"><i class = "bi bi-x-lg"></i></div>
+                </div>
+            </div>
+
+            <div class="burgerlinefather">
+                <div class="burgerline1"></div>
+            </div>
+
+            <div class="burgercontents">
+                <a href="tags.html" class="burgercontent">Tags</a>
+                <a href="authors.html" class="burgercontent">Authors</a>
+                <a href="posts.html" class="burgercontent">Posts</a>
+                <a href="membership.html" class="burgercontent">Membership</a>
+                <a  href="contact.html" class="burgercontent">Contact</a>
+            </div>
+
+            <div class="burgerlinefather">
+                <div class="burgerline1"></div>
+            </div>
+
+            <div class="footburger">
+                <div><a class="signin" href="signin.html">Sign in</a></div>
+                <a class="navbuttonburger" href="membership.html">Become member</a>
+            </div>
+
+        </div>
+    </div>
+
 
     <nav>
         <div class="navchild">
@@ -50,7 +88,7 @@
 
 <div class="authorsboxfather">
     <div class="authorsboxchild">
-        <div class="authorsbox">
+        <div class="authorsbox" data-aos="fade-up" data-aos-delay="100" data-aos-duration="300">
             <div class="authorsfoto">
                 <img class="authorsimg" src="src/assets/images/cardcircle2.png" alt="">
             </div>
@@ -59,7 +97,7 @@
             <div class="authorslowtext">Biswajit Saha writes code at gbjsolution.com. He likes to ride a bicycle when free. Prefers tea over coffee.</div>
         </div>
 
-        <div class="authorsbox">
+        <div class="authorsbox" data-aos="fade-up" data-aos-delay="300" data-aos-duration="300">
             <div class="authorsfoto">
                 <img class="authorsimg" src="src/assets/images/circle1.png" alt="">
             </div>
@@ -68,7 +106,7 @@
             <div class="authorslowtext">Apurba is UI & UX designer by profession, photographer by passion. Solo traveller, blogger, badminton player and movie lover.</div>
         </div>
 
-        <div class="authorsbox">
+        <div class="authorsbox" data-aos="fade-up" data-aos-delay="500" data-aos-duration="300">
             <div class="authorsfoto">
                 <img class="authorsimg" src="src/assets/images/card6.png" alt="">
             </div>
@@ -77,7 +115,7 @@
             <div class="authorslowtext">Front end developer by profession. Digital painting enthusiast. She also involved in various social activity. Fan of winter and snow.</div>
         </div>
 
-        <div class="authorsbox">
+        <div class="authorsbox" data-aos="fade-up" data-aos-delay="700" data-aos-duration="300">
             <div class="authorsfoto">
                 <img class="authorsimg" src="src/assets/images/cardcircle1.png" alt="">
             </div>
@@ -86,7 +124,7 @@
             <div class="authorslowtext">Harini Banerjee is an award-winning young blogger and content marketer. She also sings and travels frequently.</div>
         </div>
         
-        <div class="authorsbox">
+        <div class="authorsbox" data-aos="fade-up" data-aos-delay="900" data-aos-duration="300">
             <div class="authorsfoto">
                 <img class="authorsimg" src="src/assets/images/circle2.png" alt="">
             </div>
@@ -101,7 +139,7 @@
     </div>
 </div>
 
-<div class="subscribefather">
+<div class="subscribefather" data-aos="fade-up" data-aos-anchor-placement="center-center" data-aos-duration="300">
     <div class="subscribechild">
         <div class="subleft">
             <div class="subtitle">Subscribe to Porto newsletter and stay updated.</div>
@@ -163,5 +201,9 @@
         </div>
 </div>
 
-
+    <script src="src/js/nav.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
